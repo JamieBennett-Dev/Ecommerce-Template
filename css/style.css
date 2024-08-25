@@ -5,7 +5,7 @@
 :root {
   --white: #fff;
   --black: #222;
-  --green: #6cbe02;
+  --green: #D44545;
   --grey1: #f0f0f0;
   --grey2: #e9d7d3;
 }
@@ -106,6 +106,7 @@ Navigation
 .nav-center .nav-link {
   font-size: 1.8rem;
   padding: 1rem;
+  transition: all 0.3s ease;
 }
 
 .nav-center .nav-link:hover {
@@ -489,7 +490,7 @@ Hero Media Query
   font-size: 1.5rem;
   display: block;
   margin-bottom: 1rem;
-  transition: all 300ms ease;
+  transition: all 0.3s ease;
 }
 
 .product-info a:hover {
